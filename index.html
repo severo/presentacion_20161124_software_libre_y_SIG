@@ -27,11 +27,11 @@
 				<section data-markdown><script type="text/template">
 						## Política de software libre en Tecnologías de Información Geográfica
 
-						"Bolivia en mapas - Primer encuentro nacional sobre nodos geográficos con software libre"
+						[Bolivia en mapas](http://geo.gob.bo/?BOLIVIA-EN-MAPAS-PRIMER-ENCUENTRO-NACIONAL-SOBRE-NODOS-GEOGRAFICOS-CON-SOFTWARE)
 
-						#MapasBo
+						[\#MapasBo](https://twitter.com/hashtag/MapasBo)
 
-						La Paz - Vicepresidencia del Estado - Jueves 24 de noviembre de 2016
+						Vicepresidencia del Estado - La Paz - 24/11/2016
 				</script></section>
 				<section data-markdown><script type="text/template">
 						## Sylvain Lesage
@@ -41,37 +41,160 @@
 				<section data-markdown><script type="text/template">
 						## Índice
 
-						1. Recorrido histórico
-						2. Paseo en el mundo SIG libre
+						1. Los datos
+						2. El software
+						4. Paseo en el mundo SIG libre
 				</script></section>
 				<section data-markdown><script type="text/template">
-						# Normativa
+						## Datos
+
+						>  Your software will go away. Your data is going to stay.
+
+						[Arnulf Christl](http://arnulf.us/sevendipity/archives/59-About-Data-Lifetime.html)
 				</script></section>
 				<section data-markdown><script type="text/template">
-						## Prioridad al Software Libre
+						## Datos: vida larga
+						<img data-src="imagenes/arnulf.png">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Datos
+
+						La política del Estado boliviano es:
+
+						- publicar los datos
+						- en formato abierto
+						- con metadatos
+						- y con calidad
+				</script></section>
+				<section data-markdown><script type="text/template">
+						<img data-src="imagenes/definicion_estandar_abierto.png">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						<img data-src="imagenes/metadatos1.jpg">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						<img data-src="imagenes/metadatos2.jpg">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## El Software
+
+						- evoluciona rápidamente
+						- se vuelve obsoleto
+						- es solo una herramienta
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Pero: software libre
+
+						- tiene que manejar estándares abiertos
+						- podemos ser aprender, contribuir y ser parte de la evolución
+						- grados de confianza y de seguridad
+				</script></section>
+				<section data-markdown><script type="text/template">
+						<img data-src="imagenes/definicion_software_libre.png">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Normativa
 
 						| Fecha | Hito |
 						| --- | --- |
 						| 08/2011 | Ley 164 |
+						| 12/2011 | Inicio de GeoBolivia |
+						| 11/2013 | Decreto Supremo 1793 |
+						| ¿12/2016? | Aprobación plan de implementación de software libre y estándares abiertos |
 				</script></section>
 				<section data-markdown><script type="text/template">
-						## Ley 164
+						## Recorrido por el software libre geográfico
 
-						Artículo 77. (SOFTWARE LIBRE).
-
-						> Los Órganos Ejecutivo, Legislativo, Judicial y Electoral en todos sus niveles,
-						promoverán y priorizarán la utilización del software libre y estándares abiertos, en el
-						marco de la soberanía y seguridad nacional.
-
+						1. generar los datos
+						2. conservar y actualizar
+						3. difundir
+						4. visualizar
 				</script></section>
 				<section data-markdown><script type="text/template">
-						## Ley 164
+						## Generar los datos
 
-						Artículo 77. (SOFTWARE LIBRE).
+						- puntos, líneas, polígonos, trazas
+						- imagenes raster
+						- metadatos
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Generar puntos, líneas, polígonos, trazas
 
-						> El Órgano Ejecutivo del nivel central del Estado, elaborará el plan de implementación
-						de software libre y estándares abiertos en coordinación con los demás órganos del
-						Estado y entidades de la administración pública.
+						- en papel: [Field Papers](http://fieldpapers.org/), [Walking Papers](http://walking-papers.org/)
+						<img data-src="imagenes/fieldpapers.gif">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Generar puntos, líneas, polígonos, trazas
+
+						- con aplicación móvil: [OsmAnd](http://osmand.net/), [Vespucci](http://vespucci.io/)
+
+						<img data-src="imagenes/osmand.png">
+						<img data-src="imagenes/vespucci.png">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Generar puntos, líneas, polígonos, trazas
+
+						- con aplicación móvil: [GeoPaparazzi](https://geopaparazzi.github.io/geopaparazzi/), [Stumbler](https://location.services.mozilla.com/apps)
+
+						<img data-src="imagenes/geopaparazzi.png">
+						<img data-src="imagenes/stumbler.png">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Generar puntos, líneas, polígonos, trazas
+
+						- con aplicación de escritorio: [QGis](http://qgis.org/)
+
+						<img data-src="imagenes/qgis.png">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Generar puntos, líneas, polígonos, trazas
+
+						- con aplicación de escritorio: [gvSig](http://www.osgeo.org/gvsig)
+
+						<img data-src="imagenes/gvsig.png">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Conservar los datos
+
+						- bases de datos
+						- herramientas de conversión
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Bases de datos geográficas
+
+						- Tiene que implementar [Simple Features](https://en.wikipedia.org/wiki/Simple_Features):
+
+						[PostGIS](http://postgis.net/), [MySQL Spatial Extensions](http://dev.mysql.com/doc/refman/5.1/en/spatial-extensions.html), [SpatiaLite](https://www.gaia-gis.it/fossil/libspatialite/), [MongoDB](https://docs.mongodb.com/manual/applications/geospatial-indexes/)
+
+						<img data-src="imagenes/postgis.png">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Manipular y convertir los datos
+
+						- Librerías [GDAL/OGR](http://www.gdal.org/), [GRASS GIS](https://grass.osgeo.org/)
+
+						<img data-src="imagenes/ogrpython.png">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Publicar
+
+						- Servicios web, descargas, fondos de mapa: [GeoServer](http://geoserver.org/), [MapServer](http://www.mapserver.org/), [Mapnik](http://mapnik.org/)
+
+						<img data-src="imagenes/geoserver.png">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Publicar
+
+						- Metadatos: [Geonetwork](http://geonetwork-opensource.org/), [CKAN](http://ckan.org/features/)
+
+						<img data-src="imagenes/geonetwork.png">
+				</script></section>
+				<section data-markdown><script type="text/template">
+						## Visualizar e incorporar
+
+						- mapas "interactivos" y gráficos: [OpenLayers](http://openlayers.org/), [Leaflet](http://leafletjs.com/), [D3.js](https://d3js.org/), [Cesium](https://cesiumjs.org/)
+
+						<img data-src="imagenes/d3js.png">
 				</script></section>
 				<section data-markdown><script type="text/template">
 						# ADSIB
